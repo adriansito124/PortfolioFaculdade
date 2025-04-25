@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 130, 255), rgb(0, 160, 255), rgb(0, 190, 255));
+} 
+
+header {
+    background-color: rgb(255, 0, 0);
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+}
+
+.links {
+    background-color: aqua;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 15px;
+}
+
+.metade {
+    background-color: chartreuse;
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.metade2 {
+    background-color: chartreuse;
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.foto {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 5%;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
